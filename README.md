@@ -1,0 +1,15 @@
+# Lab 8
+- test services
+- test on neighbors server, inspect `req`
+- create 2 express microservices, move each servies to new servers
+- install `http-proxy`
+  - https://github.com/nodejitsu/node-http-proxy
+- proxy all responses to each microservice
+- add counter to service 1
+- test count
+- make a 4-node service 1 cluster
+  - `pm2 kill` to refresh all
+- test counter
+- install https://redis.io/download + `redis` node driver
+  - https://github.com/dmajkic/redis/downloads for windows
+- use redis for counter
